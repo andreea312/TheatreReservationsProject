@@ -1,0 +1,23 @@
+.root{
+    -fx-background-color: #f1d8c6;
+}
+
+.button{
+    -fx-background-color: #654939;
+    -fx-text-fill: #f1d8c6;
+}
+
+#personalDataLabel{
+    -fx-text-background-color: #654939;
+}
+
+#confirmReservationButton{
+    -fx-background-color: #654939;
+    -fx-text-fill: #f1d8c6;
+}
+
+.text-area{
+    -fx-background-color: #f1d8c6;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+}

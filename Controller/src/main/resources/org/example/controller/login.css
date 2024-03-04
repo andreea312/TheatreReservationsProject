@@ -1,0 +1,24 @@
+.root{
+    -fx-background-color: #f1d8c6;
+}
+
+#loginButton {
+    -fx-background-color: #936d4b;
+    -fx-text-fill: #f1d8c6;
+    -fx-font-weight: bold;
+}
+
+#loginLabel{
+    -fx-text-fill: #936d4b;
+    -fx-font-weight: bold;
+}
+
+#emailLabel{
+    -fx-text-fill: #936d4b;
+    -fx-font-weight: bold;
+}
+
+#passwordLabel{
+    -fx-text-fill: #936d4b;
+    -fx-font-weight: bold;
+}

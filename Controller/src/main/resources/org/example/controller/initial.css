@@ -1,0 +1,31 @@
+.root{
+    -fx-background-color: #f1d8c6;
+}
+
+#client {
+    -fx-background-color: #936d4b;
+    -fx-text-fill: #f1d8c6;
+    -fx-font-weight: bold;
+    -fx-font-size: 27;
+}
+
+#client:hover {
+    -fx-background-color: #654939;
+    -fx-font-size: 35;
+}
+
+#admin {
+    -fx-background-color: #936d4b;
+    -fx-text-fill: #f1d8c6;
+    -fx-font-weight: bold;
+    -fx-font-size: 27;
+}
+
+#admin:hover {
+    -fx-background-color:#654939;
+    -fx-font-size: 35;
+}
+
+#whoLabel{
+    -fx-text-fill: #654939;
+}

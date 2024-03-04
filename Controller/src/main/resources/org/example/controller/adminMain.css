@@ -1,0 +1,47 @@
+.root{
+    -fx-background-color: #f1d8c6;
+}
+
+.button {
+    -fx-background-color: #936d4b;
+    -fx-text-fill: #f1d8c6;
+    -fx-font-weight: bold;
+    -fx-font-size: 12;
+}
+
+.button:hover {
+    -fx-background-color: #654939;
+    -fx-font-size: 15;
+}
+
+.table-view .column-header {
+    -fx-background-color: #936d4b;
+    -fx-padding: 0 0 5px 0;
+}
+
+.table-view .column-header .label{
+    -fx-text-fill: #f1d8c6;
+    -fx-font-weight: bold;
+}
+
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 2 10px;
+    -fx-background-color: #f1d8c6;
+    -fx-text-background-color: #654939;
+}
+.table-row-cell {
+    -fx-background-color: #f1d8c6;
+    -fx-text-background-color: #654939;
+}
+.table-row-cell:hover {
+    -fx-background-color: #f1d8c6;
+    -fx-text-background-color: #654939;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell:selected{
+    -fx-background-color: #f1d8c6;
+    -fx-text-background-color: #654939;
+    -fx-font-weight: bold;
+}

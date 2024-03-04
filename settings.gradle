@@ -1,0 +1,6 @@
+rootProject.name = 'ISS_TheatreApplication'
+include 'Domain'
+include 'Repository'
+include 'Service'
+include 'Controller'
+

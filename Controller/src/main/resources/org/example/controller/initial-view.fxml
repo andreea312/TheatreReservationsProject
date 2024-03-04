@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="650.0" prefWidth="550.0" stylesheets="@initial.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.InitialController">
+   <children>
+      <Button fx:id="client" mnemonicParsing="false" onAction="#clientClicked" prefHeight="300.0" prefWidth="550.0" text="Client">
+      </Button>
+      <Button fx:id="admin" layoutY="352.0" mnemonicParsing="false" onAction="#adminClicked" prefHeight="300.0" prefWidth="550.0" text="Administrator">
+      </Button>
+      <Label fx:id="whoLabel" layoutX="5.0" layoutY="301.0" text="WELCOME! WHO ARE YOU?">
+         <font>
+            <Font name="Bodoni MT" size="40.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
